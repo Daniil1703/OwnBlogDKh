@@ -1,0 +1,76 @@
+@media screen and (max-width: 850px){
+    /* ------------------------------НАВИГАЦИОННЫЙ БАР-------------------------------- */
+    .navbar-wrapper {
+        position: absolute;
+        top: 0;
+        background: rgb(25,26,29);
+    }
+
+    .color-open {
+        background: rgb(43, 44, 48);
+    }
+
+    .navbar {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgb(129, 128, 128);
+    }
+
+    .blank {
+        display: flex;
+        margin-top: 70px;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .dropbtn {
+        display: block;
+        float: right;
+        cursor: pointer;
+        margin-top: 25px;
+    }
+
+    .drpbtn-l {
+        width: 20px;
+        margin-bottom: 7px;
+        height: 5px;
+        border-radius: 5px;
+        background: white;
+    }
+
+    .blank-li{
+        padding: 0px;
+    }
+
+    .blank-li a {
+        font-size: 20px;
+    }
+
+    .blank-li a hr{
+        /* background: #e49165; */
+        width: 100%;
+        height: 3px;
+      }
+      
+    .blank-li a:hover hr {
+        background: inherit;
+        width: 100%;
+        height: 3px;
+        border-radius: 5px;
+        background: #e49165;
+    }
+    
+    .blank .blank-li {
+        display: none;
+    }
+
+    .blank .active {
+        display: block;
+    }
+
+    /* ------------------------------------главный контент------------------------------------- */
+
+    .content-wrapper {
+        margin-top: 100px;
+    }
+}
