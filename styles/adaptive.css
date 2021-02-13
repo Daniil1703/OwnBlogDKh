@@ -1,3 +1,11 @@
+@media screen and (min-width: 1300px){
+    /* ------------------------------Контент-------------------------------- */
+    .content {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 80%;
+    }   
+}
 @media screen and (max-width: 1100px){
     /* ------------------------------НАВИГАЦИОННЫЙ БАР-------------------------------- */
     .logo {
@@ -8,6 +16,10 @@
         font-size: 1rem;
         line-height: 50px;
         color: rgb(148, 147, 147);
+    }
+
+    .overlap-img {
+        margin-left: 10px;
     }
 }
 
@@ -89,7 +101,40 @@
     /* ------------------------------------главный контент------------------------------------- */
 
     .content-wrapper {
-        margin-top: 100px;
+        margin-top: 200px;
+        /* background: red; */
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .site-banner__content {
+        margin: 0 0 40px 0;
+        width: 100%;
+    }
+
+    .site-banner__title {
+        font-size: 50px;
+    }
+    
+    .site-banner__subtitle {
+        margin-top: 30px; margin-bottom: 30px;
+        font-size: 35px;
+    }
+
+    .overlap-img {
+        /* position: relative; */
+        margin: 0;
+        width: auto;
+        height: auto;
+        padding: 30px 30px 85px 30px;
+    }
+
+    .overlap-img img {
+        width: 100%;
+        max-width: 650px;
+        height: auto;
     }
 }
 
@@ -118,5 +163,51 @@
     #nav-toggle {
         margin-top: 15px;
         padding: 16px 4px 4px 4px;
+    }
+
+        /* ------------------------------------главный контент------------------------------------- */
+
+    .content-wrapper {
+        margin-top: 150px;
+        /* background: red; */
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .site-banner__content {
+        margin: 0 0 40px 0;
+        width: 100%;
+    }
+
+    .site-banner__title {
+        font-size: 30px;
+    }
+    
+    .site-banner__subtitle {
+        margin-top: 15px; margin-bottom: 25px;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .site-banner__btn {
+        font-size: 17px;
+        padding: 15px 15px;
+        font-weight: 400;
+        letter-spacing: 2px;
+    }
+
+    .overlap-img {
+        margin: 0;
+        width: auto;
+        height: auto;
+        padding: 20px 20px 65px 20px;
+    }
+
+    .overlap-img img {
+        width: 100%;
+        max-width: 650px;
+        height: auto;
     }
 }

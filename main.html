@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+
+
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+
     <link rel="icon" href="icons/logo.ico">
 
     <link rel="stylesheet" href="styles/style.css">
@@ -35,7 +40,29 @@
         </div>
     </section>
     <section class="content-wrapper">
-        
+        <div class="content">
+            <div class="site-banner__content">
+                <h1 class="site-banner__title">
+                    Привет, я Даниил.
+                </h1>
+            
+                <h2 class="site-banner__subtitle">
+                    Веб-разработчик из Севастополя. Я создаю сайты на заказ, для продвижения людей и их брендов в интернете! 
+                </h2>
+                <a class="site-banner__btn" href="/projects/">
+                    Мои Проекты
+                </a>
+            </div>
+
+			<figure class="overlap-img">
+                <picture>
+                    <source srcset="images/meFull.jpg" media="(min-width: 901px)">
+                    <source srcset="images/me900.jpg" media="(max-width: 900px) and (min-width: 376px)">
+                    <source srcset="images/me400.jpg" media="(max-width: 375px)">
+                    <img src="images/me400.jpg" alt="Full-Size-Render" height="400"/>
+                </picture>  
+			</figure>
+        </div>
     </section>
 </body>
 </html>

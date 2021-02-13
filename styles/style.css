@@ -34,7 +34,7 @@ body {
 }
 
 .blank-li{
-    padding: 0 20px;
+    padding: 0 15px;
     font-family: 'Roboto', sans-serif;
     float: right;
     margin-top: 20px;
@@ -44,6 +44,7 @@ body {
 .blank-li a {
     font-size: 1.3rem;
     line-height: 50px;
+    letter-spacing: 1px;
     color: rgb(148, 147, 147);
 }
 
@@ -54,7 +55,7 @@ body {
 
 .logo hr {
     height: 7px;
-    background: #e49165;
+    background: rgb(177, 96, 59);
     border-radius: 7px;
     transition: 0.6s;
     border: none;
@@ -70,14 +71,16 @@ body {
   margin: auto;
   transition: 0.6s;
   width: 1px;
+  height: 6px;
   border: none;
+  background: inherit;
 }
 
 .blank-li a:hover hr {
   transition: 0.6s;
   width: 60%;
   height: 6px;
-  background: #e49165;
+  background: rgb(177, 96, 59);
   border: none;
   border-radius: 10px;
 }
@@ -144,3 +147,76 @@ body {
 }
 
 /* ----------------------------------КОНТЕНТ----------------------------------------- */
+
+.content-wrapper {
+    margin: auto;
+    max-width: 93%;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.site-banner__content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: initial;
+    margin-right: auto;
+    width: 50%;
+}
+
+.site-banner__title {
+    font-family: 'Comfortaa', cursive;
+    font-size: 55px;
+    color: white;
+}
+
+.site-banner__subtitle {
+    margin-top: 30px; margin-bottom: 30px;
+    color: rgb(148, 147, 147);
+    font-size: 35px;
+    line-height: 45px;
+    font-family: 'Montserrat';
+}
+
+.site-banner__btn {
+    color: white;
+    border: 3px solid  rgb(25,26,29);
+    background: rgb(177, 96, 59);
+    font-size: 27px;
+    padding: 25px 30px;
+    border-radius: 1000px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.site-banner__btn:hover {
+    background: inherit;
+    border: 3px solid rgb(177, 96, 59);
+    transition: 0.6s;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.overlap-img {
+    display: flex;
+    justify-content: center;
+    border-radius: 2px;
+    margin-left: auto;
+    padding-top: 25px;
+    background: rgb(18,19,22);
+    height: 480px;
+    width: 450px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+img {
+    object-fit: cover;
+}
